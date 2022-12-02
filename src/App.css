@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  /* min-height: 100vh; */
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.App {
+  padding: 0 1rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.container img {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.content h2 {
+  font-size: 2rem;
+}
+
+.content p {
+  color: #4F4F4F;
+  padding: 1.2rem 0;
+  font-size: 1rem;
+}
+
+.content button {
+  border: none;
+  background-color: #333333;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.5s ease;
+  text-transform: uppercase;
+}
+
+.content button:hover {
+  background-color: #4F4F4F;
+}
+
+footer p{
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem 0;
+  color: #BDBDBD;
+
+  text-align: center;
+  width: 100%;
+}
+
+footer a {
+  color: #333333;
+}
+
+
+@media screen and (min-width: 480px){
+  .container img {
+    width: 70%;
+  }
+
+  .content h2 {
+    font-size: 2.4rem;
+  }
+
+  .content p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .container img {
+    width: 55%;
+  }
+
+  .content h2 {
+    font-size: 3rem;
+  }
+
+  .content p {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media screen and (min-width: 900px){
+  .App {
+    padding: 0 5rem;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: auto;
+  }
+  .container img {
+    width: 50%;
+  }
+
+  .content h2 {
+    font-size: 4rem;
+    line-height: 65px;
+  }
+
+  .content p {
+    font-size: 2rem;
+  }
+
+  .content button {
+    padding: 1.5rem;
+  }
+
+}
